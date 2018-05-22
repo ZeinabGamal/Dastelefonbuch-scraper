@@ -2,13 +2,13 @@
 ## **The full source code is private since it's a paid software, contact me for more details**
 ### **In this page i will talk about some parts of the code including a sample from the source code.**
 #### **Starting from this url : https://kontakt-1.dastelefonbuch.de/Rostock/L-500063366201-abass-fadil.html**
-The following code is written in **python 3.6.5** and **Selenium** which is a module for scraping and automating. <h4>
+The following code is written in **python 3.6.5** and **Selenium** which is a module for scraping and automating. 
 ![profile page](https://raw.githubusercontent.com/ZeinabGamal/Dastelefonbuch-scraper/master/Dastelefonbuch-scraper.PNG)
 #### Basically the full script is searching for names in dastelefonbuch.de and then scrapes all names and phones from all pages in the search results
 
 #### But in this page i will present only the part of scraping one search result page and not all of the website
 
-The script will open google chrome using the chrome driver then visits a search results page for any name e.g. "abass fadil" and then will extract any contact details "Names and Phone Numbers" but if the name string has more than 2 words then it will skip it and also if there is no phone number it will be skipped as well. <h4>
+The script will open google chrome using the chrome driver then visits a search results page for any name e.g. "abass fadil" and then will extract any contact details "Names and Phone Numbers" but if the name string has more than 2 words then it will skip it and also if there is no phone number it will be skipped as well. 
 
 #### First import the needed modules
 
@@ -186,7 +186,7 @@ else:
     print(phone_number)
 
 ```
-![scraping_results](https://github.com/ZeinabGamal/Dastelefonbuch-scraper/blob/master/scraping_Results.PNG)
+![scraping_results](https://raw.githubusercontent.com/ZeinabGamal/Dastelefonbuch-scraper/master/scraping_Results.PNG)
 
 
         
