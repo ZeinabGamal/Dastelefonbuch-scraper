@@ -1,7 +1,7 @@
-# **Welcome to dastelefonbuch.de scraper project** <h1>
-## **The full source code is private since it's a paid software, contact me for more details** <h2>
-### **In this page i will talk about some parts of the code including a sample from the source code.** <h3>
-#### **Starting from this url : https://kontakt-1.dastelefonbuch.de/Rostock/L-500063366201-abass-fadil.html** <h4>
+# **Welcome to dastelefonbuch.de scraper project**
+## **The full source code is private since it's a paid software, contact me for more details**
+### **In this page i will talk about some parts of the code including a sample from the source code.**
+#### **Starting from this url : https://kontakt-1.dastelefonbuch.de/Rostock/L-500063366201-abass-fadil.html**
 The following code is written in **python 3.6.5** and **Selenium** which is a module for scraping and automating. <h4>
 ![profile page](https://raw.githubusercontent.com/ZeinabGamal/Dastelefonbuch-scraper/master/Dastelefonbuch-scraper.PNG)
 #### Basically the full script is searching for names in dastelefonbuch.de and then scrapes all names and phones from all pages in the search results
